@@ -1,0 +1,144 @@
+.todos {
+  width: 100%;
+  padding-block: 30px;
+}
+
+.todos .todo_box .todo_box_wrapper {
+  padding: 15px;
+  background: #c4c4c4;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 5px 5px #797777;
+          box-shadow: 0 5px 5px #797777;
+}
+
+.todos .todo_box .todo_box_wrapper .todo-date {
+  text-align: right;
+}
+
+.todos .todo_box .todo_box_wrapper .todo-date i {
+  font-size: 12px;
+  color: grey;
+}
+
+.todos .todo_box .todo_box_wrapper p {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #151515;
+  margin-block: 8px;
+  margin-bottom: 20px;
+}
+
+.todos .todo_box .todo_box_wrapper .todo-btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.todos .todo_box .todo_box_wrapper .todo-btn button {
+  font-size: 14px;
+  padding: 5px;
+  border: 0;
+  background: #3982E4;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.todos .todo_box .todo_box_wrapper .todo-btn button:hover {
+  background: #5089d3;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.todos .add_todo_box .todo_box_wrapper {
+  padding: 15px;
+  background: #c4c4c4;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 5px 5px #797777;
+          box-shadow: 0 5px 5px #797777;
+}
+
+.todos .add_todo_box .todo_box_wrapper h5 {
+  font-size: 26px;
+  color: #151515;
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 1.2;
+}
+
+.todos .add_todo_box .todo_box_wrapper h2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 1.2;
+  color: #191919;
+}
+
+.todos .add_todo_box .todo_box_wrapper p {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: red;
+  margin-block: 8px;
+}
+
+.todos .add_todo_box .todo_box_wrapper input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid silver;
+  margin-bottom: 15px;
+  outline: none;
+  -webkit-box-shadow: 0 5px 5px #989797;
+          box-shadow: 0 5px 5px #989797;
+}
+
+.todos .add_todo_box .todo_box_wrapper input:focus {
+  border: 1px solid grey;
+}
+
+.todos .add_todo_box .todo_box_wrapper ::-webkit-input-placeholder {
+  color: #c4c4c4;
+}
+
+.todos .add_todo_box .todo_box_wrapper :-ms-input-placeholder {
+  color: #c4c4c4;
+}
+
+.todos .add_todo_box .todo_box_wrapper ::-ms-input-placeholder {
+  color: #c4c4c4;
+}
+
+.todos .add_todo_box .todo_box_wrapper ::placeholder {
+  color: #c4c4c4;
+}
+
+.todos .add_todo_box .todo_box_wrapper button {
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  background: #3982E4;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.todos .add_todo_box .todo_box_wrapper button:hover {
+  background: #5089d3;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+/*# sourceMappingURL=AddTodo.css.map */

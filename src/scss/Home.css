@@ -1,0 +1,58 @@
+.home {
+  width: 100%;
+  height: calc(100% - 94px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home .create_todo_wrapper {
+  padding: 50px;
+  background: #c4c4c4;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 5px 5px #797777;
+          box-shadow: 0 5px 5px #797777;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home .create_todo_wrapper h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #191919;
+  text-transform: capitalize;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+
+.home .create_todo_wrapper button {
+  padding: 15px 20px;
+  border: 0;
+  background: #3982E4;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.home .create_todo_wrapper button:hover {
+  background: #5089d3;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+/*# sourceMappingURL=Home.css.map */
